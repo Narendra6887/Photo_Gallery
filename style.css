@@ -1,0 +1,105 @@
+:root {
+    --gradient: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+
+}
+
+body {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navi {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    position: fixed;
+    list-style: none;
+    z-index: 10;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+    margin: 8px auto;
+    font-weight: bold;
+    font-family: 'Limelight', cursive;
+}
+
+.A {
+    color: transparent;
+    background-image: var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 300%;
+    transition: background-position 5s;
+    font-size: 30px;
+}
+
+.A:hover {
+    background-position: right;
+    font-size: 35px;
+    color: transparent;
+    background-image: var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 300%;
+    transition: background-position 5s;
+}
+
+#t-home {
+    color: aqua;
+    font-size: 80px;
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 0px 0px 10px blueviolet;
+}
+
+.Bword {
+    color: aqua;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 0px 0px 10px blueviolet;
+}
+
+.S-img {
+    margin: 10px auto;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0px 5px 10px blueviolet;
+    border-radius: 5px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0px;
+
+}
+.grid-item {
+    position: relative;
+    margin-bottom: -35px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.G-img {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 5px 10px blueviolet;
+    border-radius: 5px;
+}
